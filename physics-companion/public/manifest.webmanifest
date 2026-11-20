@@ -1,0 +1,19 @@
+{
+  "name": "Physics Daily Companion",
+  "short_name": "Physics",
+  "description": "Your calm, intelligent daily mobile companion.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8f9fa",
+  "theme_color": "#f8f9fa",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
