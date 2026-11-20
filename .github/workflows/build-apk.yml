@@ -32,6 +32,8 @@ jobs:
 
       - name: Install web dependencies and build dist
         working-directory: physics-companion
+        env:
+          VITE_AI_API_KEY: ${{ secrets.VITE_AI_API_KEY }}
         run: |
           npm install --legacy-peer-deps
           npm run build
